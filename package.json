@@ -1,0 +1,57 @@
+
+{
+    "name": "open-in-powershell-ise",
+    "displayName": "Open in PowerShell ISE",
+    "description": "A VS Code extension to open .ps1 files in PowerShell ISE, just right click on .ps1 file",
+    "version": "0.0.1",
+    "homepage": "https://example.com",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CieloVistaSoftware/open-in-powershell-ise"
+    },
+    "bugs": {
+        "url": "https://github.com/CieloVistaSoftware/open-in-powershell-ise/issues"
+    },
+    "publisher": "Cielo Vista Software",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "activationEvents": [
+        "onCommand:extension.openInPowershellISE"
+    ],
+    "main": "./extension.js",
+    "icon": "icon.png",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.openInPowershellISE",
+                "title": "Open in PowerShell ISE"
+            }
+        ],
+        "menus": {
+            "editor/context": [
+                {
+                    "command": "extension.openInPowershellISE",
+                    "when": "resourceExtname == .ps1",
+                    "group": "navigation"
+                }
+            ],
+            "explorer/context": [
+                {
+                    "command": "extension.openInPowershellISE",
+                    "when": "resourceExtname == .ps1",
+                    "group": "navigation"
+                }
+            ]
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.37",
+        "typescript": "^4.1.3",
+        "vscode": "^1.1.36"
+    }
+}
