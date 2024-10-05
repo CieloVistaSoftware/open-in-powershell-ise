@@ -20,7 +20,6 @@
         "onCommand:extension.openInPowershellISE"
     ],
     "main": "./extension.js",
-    "icon": "icon.png",
     "contributes": {
         "commands": [
             {
