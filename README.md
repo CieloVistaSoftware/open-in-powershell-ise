@@ -1,12 +1,10 @@
+# ![PowerShell Icon](./icon.ico) Open in PowerShell IDE - Visual Studio Code Extension
 
-<div style="display: flex; align-items: center;">
-    <img src="icon.ico" alt="open icon" style="max-width: 100%; height: auto;" />
-    <h2 style="margin: 0 0 0 10px;">Open in PowerShell IDE - Visual Studio Code Extension</h2>
-</div>
+
 
 <br/>
 Right click on a .ps1 file and **"Open in PowerShell IDE"** shows in the menu options.
-
+ 
 
 ## Requirements
 - Visual Studio Code
