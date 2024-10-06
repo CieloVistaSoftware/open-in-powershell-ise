@@ -1,9 +1,6 @@
 # ![PowerShell Icon](./icon.ico) Open in PowerShell IDE - Visual Studio Code Extension
 
-
-
-<br/>
-Right click on a .ps1 file and **"Open in PowerShell IDE"** shows in the menu options.
+Right click on a .ps1 file and **Open in PowerShell IDE** shows in the menu options.
  
 
 ## Requirements
